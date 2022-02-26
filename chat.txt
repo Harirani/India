@@ -14,11 +14,7 @@ echo "first number * second number = $((first_num * second_num))"
 echo "first number / second number = $((first_num / second_num))"
 echo "first number % second number = $((first_num % second_num))"
 echo "first number raised to the"
-echo "power of the second number   = $((first_num ** second_num))"
-19:19:11	 From  M MUNIRAJA : #!/bin/bash
-echo "The first Parameter is $1"
-echo "The second Parameter is $2"
-echo " The addition of two parameters is : `expr $1 + $2`"
+
 echo "The Parameters are: $*"
 echo "The Parameters are: $@"
 echo "The no.of Parameters are: $#"
